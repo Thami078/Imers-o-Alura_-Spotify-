@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #000;
     color: aliceblue;
@@ -21,6 +23,7 @@ body {
     background-color: #121212 ;
     border-radius: 8px;
     padding: 16px 0 0 16px;
+    
 }
 
 .sidebar__navigation .logo {
@@ -31,7 +34,8 @@ body {
 }
 
 .logo img {
-    width: 80px;
+    width: 90px;
+    margin-left: -10px;
 }
 
 .sidebar nav ul {
@@ -51,3 +55,55 @@ body {
     font-size: 14px;
     font-family: "Dm Sans", sans-serif;
 }
+
+.sidebar nav ul li a :hover {  
+        color: white; 
+        font-weight: bold;
+}
+
+.library {  
+    margin: 15px 0; 
+    background-color: #121212;
+    border-radius: 8px;
+    width: 300px;
+    height: 70px;
+    
+}  
+
+.library-link {  
+    text-decoration: none;   
+    color: #b3b3b3;
+    font-size: 15px; 
+    display: flex;  
+    align-items: center;
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 30px;
+
+}  
+
+#icon {
+    margin-top: 30px;
+}
+
+#library-text{
+    margin-top: 30px;
+    padding: 0 0 0 20px;
+}
+
+
+.library-link:hover {  
+    color: white; 
+    font-weight: bold;
+}  
+
+.add-icon {  
+    margin-top: 30px;
+    margin-left: 90px; 
+    font-size: 20px;
+    color: white;  
+    font-family: "Dm Sans", sans-serif;
+}
+
