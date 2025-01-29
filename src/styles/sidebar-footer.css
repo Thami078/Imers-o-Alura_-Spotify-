@@ -3,6 +3,7 @@
 body {
     background-color: #000;
     color: aliceblue;
+    font-family: var(--font-dm-sans);
 }
 
 /* #logo-spotify {
@@ -56,7 +57,7 @@ body {
     font-family: "Dm Sans", sans-serif;
 }
 
-.sidebar nav ul li a :hover {  
+.sidebar nav ul li a:hover {  
         color: white; 
         font-weight: bold;
 }
@@ -166,6 +167,11 @@ body {
     width: 113px;
 }
 
+.section-playlist__button:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
 .sidebar .cookies{
     margin: 25px 20px;
 }
@@ -175,6 +181,7 @@ body {
     font-weight: 500;
     font-size: 12px;
     text-decoration: none;
+    
 }
 
 .sidebar .cookies a:hover{
@@ -192,6 +199,12 @@ body {
     padding: 8px;
     border-radius: 20px;
 }
+
+.languages__button:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
 
 .disclaimer-premium{
     position: fixed;
@@ -240,6 +253,13 @@ body {
     border-radius: 40px;
     cursor: pointer;
 }  
+
+.disclaimer-premium button:hover{
+    transition: transform 0.3s;
+    transform: scale(1.1);
+
+    
+}
 
 /* super estilização de algo com contorno sombreado */
 

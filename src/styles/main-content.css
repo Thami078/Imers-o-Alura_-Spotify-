@@ -1,0 +1,119 @@
+/* HEADER */
+
+.main-container{
+    max-width: 80vw;
+/* viewport width" vw, que é a largura da tela,serve para 
+    denominar o espaço que está sendo ocupado,ótimo para respon-
+    sividade. #vh - viewport height  */
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+.header__navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+}
+
+.header__navigation .navigation{
+    display: flex;
+    /* display flex, permite que os elementos sejam dispostos em uma linha */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navigation .navigation .arrow-left{
+    margin-right: 1.25rem;
+    /* 1.25rem é igual a +ou- 16px ->"root em" e é uma maneira 
+    de medir o tamanho das coisas,rem é uma maneira de fazer 
+    as coisas na tela crescerem ou encolherem de maneira fácil, 
+    seguindo sempre o tamanho base que foi escolhido*/  
+}
+
+.arrow-left, .arrow-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+}
+
+.header__login{
+    display: flex;
+    align-items: center;
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
+    width: 364px; 
+    height: 48px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header__search input{
+    background: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis;
+    /* text-overflow: ellipsis, significa que se o seu texto 
+    for muito longo, ele vai mostrar algumas letras no começo
+     e no meio, mas ao final ele vai aparecer cortado com três 
+     pontinhos: .... #ele só funciona com o overflow em baixo */
+    overflow: hidden;
+    white-space: nowrap;
+    /* white-space: nowrap ->deixa o texto em uma só linha */
+    outline:none
+    /* não marca o fim do imput com uma linha */
+}
+
+.header__login .subscribe{
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+}
+
+.subscribe:hover {  
+    color: white; 
+    font-weight: bold;
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+.header__login .login{
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.login:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1);
+     /* Define a transição de movimento */
+} 
