@@ -117,3 +117,34 @@
     transform: scale(1.1);
      /* Define a transição de movimento */
 } 
+
+/* PLAYLIST */
+
+.playlist-container{
+    height: 57vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #121212;
+    margin-top: -680px;
+    margin-left: 332px;
+    margin-right: 68px;
+;
+}
+
+.playlist{
+    margin: 24px;
+}
+
+.playlist #greeting{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48;
+}
+
+.playlist .greeting-subtitle{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
