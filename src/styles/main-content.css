@@ -88,6 +88,10 @@
     /* não marca o fim do imput com uma linha */
 }
 
+.header__search:hover {
+  border: 1px solid #fff;
+}
+
 .header__login .subscribe{
     color: #a7a7a7;
     font-size: 16px;
@@ -130,6 +134,10 @@
     margin-left: 332px;
     margin-right: 68px;
 ;
+}
+
+.playlist-container #result-artist .hidden {
+  height: 80vh;
 }
 
 .playlist{
